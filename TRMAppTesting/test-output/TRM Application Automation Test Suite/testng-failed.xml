@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TRM Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.tvd.trm.util.MyTransformer"/>
+  </listeners>
+  <test name="TRM Application Regaression Testing">
+    <classes>
+      <class name="com.tvd.trm.testcases.TRMLoginPageTest"/>
+      <class name="com.tvd.trm.testcases.TRMHomePageTest"/>
+    </classes>
+  </test> <!-- TRM Application Regaression Testing -->
+  <test name="TRM Application Regaression Testing(failed)">
+    <classes>
+      <class name="com.tvd.trm.testcases.TRMHomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="homePageTitleTest"/>
+        </methods>
+      </class> <!-- com.tvd.trm.testcases.TRMHomePageTest -->
+      <class name="com.tvd.trm.testcases.TRMLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="rapdrpTextTest"/>
+        </methods>
+      </class> <!-- com.tvd.trm.testcases.TRMLoginPageTest -->
+    </classes>
+  </test> <!-- TRM Application Regaression Testing(failed) -->
+</suite> <!-- Failed suite [TRM Application Automation Test Suite] -->

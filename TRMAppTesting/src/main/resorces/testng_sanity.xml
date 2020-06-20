@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TRM Application Automation Test Suite" >
+  <test name="TRM Application Regaression Testing" >
+    <classes>
+     <!--  <class name="com.tvd.trm.testcases.TRMGenTicketPageTest"/> -->
+      <class name="com.tvd.trm.testcases.TRMAddUserPageTest"/>
+      <class name="com.tvd.trm.testcases.TRMManualCollEntryTest"/>
+     </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31089" started-at="2020-06-20T07:13:12Z" finished-at="2020-06-20T07:13:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31089" started-at="2020-06-20T07:13:12Z" finished-at="2020-06-20T07:13:43Z">
+      <class name="com.tvd.trm.testcases.TRMManualCollEntryTest">
+        <test-method status="PASS" signature="setUp()[pri:1, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="setUp" duration-ms="16724" started-at="2020-06-20T12:43:12Z" finished-at="2020-06-20T12:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="tear" is-config="true" duration-ms="1" started-at="2020-06-20T12:43:28Z" finished-at="2020-06-20T12:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="validateradiobtn()[pri:2, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="validateradiobtn" duration-ms="60" started-at="2020-06-20T12:43:28Z" finished-at="2020-06-20T12:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateradiobtn -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="tear" is-config="true" duration-ms="1" started-at="2020-06-20T12:43:29Z" finished-at="2020-06-20T12:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="enterdetails" duration-ms="6562" started-at="2020-06-20T12:43:29Z" data-provider="getManualcollentrydata" finished-at="2020-06-20T12:43:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7452412587]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Counter-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[235416]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Revenue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[241]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CHEQUE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[235416]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="enterdetails" duration-ms="7019" started-at="2020-06-20T12:43:36Z" data-provider="getManualcollentrydata" finished-at="2020-06-20T12:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7452412587]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Counter-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[235416]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Out]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[246]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[235417]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[IDBI]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="tear" is-config="true" duration-ms="0" started-at="2020-06-20T12:43:36Z" finished-at="2020-06-20T12:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.tvd.trm.testcases.TRMManualCollEntryTest@7dc36524]" name="tear" is-config="true" duration-ms="0" started-at="2020-06-20T12:43:43Z" finished-at="2020-06-20T12:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.tvd.trm.testcases.TRMManualCollEntryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
