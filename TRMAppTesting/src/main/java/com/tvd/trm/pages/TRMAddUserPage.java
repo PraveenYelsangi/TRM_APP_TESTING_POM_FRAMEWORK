@@ -130,18 +130,18 @@ public class TRMAddUserPage extends TrmTestBase {
 	public void mobile(String txtmobile) {
 		mobile.sendKeys(txtmobile);
 	}
-	
-	public void addapprovelbtn(){
+
+	public void addapprovelbtn() {
 		approval.click();
 	}
-	
-	public void approverejectbtn(String username){
+
+	public void approverejectbtn(String username) {
 		approvereject.click();
-		driver.findElement(By.xpath("//span[text()='"+username+"']/preceding::input[1]")).click();
+		driver.findElement(By.xpath("//span[text()='" + username + "']/preceding::input[1]")).click();
 		Select select = new Select(driver.findElement(By.id("ctl00_ContentPlaceHolder1_ddlselect")));
 		select.selectByVisibleText("Approval");
 	}
-	
+
 	public String approverejectlabel() {
 		approvereject.click();
 		return approverejectpage.getText();

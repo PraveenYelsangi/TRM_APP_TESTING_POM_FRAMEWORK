@@ -1,0 +1,144 @@
+2020-06-26 12:58:22,575  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 12:58:33,766  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 12:58:44,596  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 12:58:58,286  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 12:58:58,286  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 12:58:58,286  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 13:11:07,371  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 13:11:18,949  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 13:11:30,149  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 13:11:42,831  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 13:11:42,831  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 13:11:42,831  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 13:15:23,504 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:15:23,504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:15:23,504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:15:23,504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:15:23,504 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:15:23,771 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:15:23,771 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:15:23,772 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:15:23,772 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:15:23,772 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:16:22,563 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:16:22,563 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:16:22,563 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:16:22,570 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:16:22,570 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:16:22,830 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:16:22,830 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:16:22,830 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:16:22,831 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:16:22,831 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:17:32,438  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 13:17:51,109  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 13:18:01,757  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 13:18:14,112  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 13:18:14,112  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 13:18:14,112  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 13:18:15,094 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:18:15,094 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:18:15,094 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:18:15,094 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:18:15,094 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:18:15,340 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:18:15,342 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:18:15,342 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:18:15,342 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:18:15,343 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:19:42,349  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 13:19:53,361  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 13:20:04,402  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 13:20:17,057  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 13:20:17,058  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 13:20:17,058  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 13:21:53,643  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 13:22:04,702  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 13:22:15,452  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 13:22:27,676  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 13:22:27,676  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 13:22:27,677  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 13:23:32,628 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:23:32,630 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:23:32,632 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:23:32,633 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:23:32,634 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:23:32,887 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:23:32,887 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:23:32,887 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:23:32,888 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:23:32,888 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:24:54,060 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:24:54,063 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:24:54,065 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:24:54,066 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:24:54,066 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:24:54,313 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 13:24:54,313 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 13:24:54,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 13:24:54,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 13:24:54,314 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 13:26:56,463  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 13:27:07,615  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 13:27:34,514  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 13:27:46,862  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 13:27:46,863  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 13:27:46,863  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 14:31:07,158  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:31:18,470  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:31:29,595  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 14:31:44,099  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 14:31:44,099  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 14:31:44,100  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 14:33:03,659  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:33:14,474  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:39:53,715  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:40:05,114  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:41:06,849  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:41:17,641  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:43:04,814  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:43:15,416  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:45:49,626  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:46:00,298  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 14:46:01,528 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 14:46:01,528 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 14:46:01,528 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 14:46:01,528 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 14:46:01,528 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 14:46:01,827 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 14:46:01,827 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 14:46:01,827 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 14:46:01,827 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 14:46:01,827 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 14:48:34,141  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 14:48:45,276  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 16:08:27,113  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 16:08:38,350  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 16:08:39,707 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 16:08:39,707 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 16:08:39,707 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 16:08:39,707 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 16:08:39,707 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 16:08:39,955 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 16:08:39,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 16:08:39,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 16:08:39,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 16:08:39,955 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 17:27:44,602  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 17:27:55,767  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 17:28:07,469  INFO [main] TRMLoginPageTest:30 - ------------------->> Start LoginPage Test <<-------------------
+2020-06-26 17:28:19,737  INFO [main] TRMLoginPageTest:40 - ==> Home page Logo Test Complete and flag is: true
+2020-06-26 17:28:30,859  INFO [main] TRMLoginPageTest:47 - ==> Home page RAPDRP text Test Complete and text is: R-APDRP TOTAL REVENUE MANAGEMENT SYSTEM.
+2020-06-26 17:28:44,365  INFO [main] TRMLoginPageTest:54 - TRM Application Login Successfully
+2020-06-26 17:28:44,365  INFO [main] TRMLoginPageTest:55 - ------------------->> End LoginPage Test <<-------------------
+2020-06-26 17:28:44,365  INFO [main] TRMLoginPageTest:56 -  
+2020-06-26 17:28:45,722 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 17:28:45,724 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 17:28:45,725 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 17:28:45,726 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 17:28:45,727 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-06-26 17:28:46,057 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2020-06-26 17:28:46,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2020-06-26 17:28:46,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-06-26 17:28:46,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-06-26 17:28:46,057 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/Sagar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

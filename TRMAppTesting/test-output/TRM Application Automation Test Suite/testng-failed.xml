@@ -3,27 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [TRM Application Automation Test Suite]">
   <listeners>
     <listener class-name="com.tvd.trm.util.MyTransformer"/>
+    <listener class-name="com.tvd.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.tvd.trm.util.ScreenShotListener"/>
   </listeners>
   <test name="TRM Application Regaression Testing">
     <classes>
       <class name="com.tvd.trm.testcases.TRMLoginPageTest"/>
-      <class name="com.tvd.trm.testcases.TRMHomePageTest"/>
     </classes>
   </test> <!-- TRM Application Regaression Testing -->
   <test name="TRM Application Regaression Testing(failed)">
     <classes>
-      <class name="com.tvd.trm.testcases.TRMHomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="teardown"/>
-          <include name="homePageTitleTest"/>
-        </methods>
-      </class> <!-- com.tvd.trm.testcases.TRMHomePageTest -->
       <class name="com.tvd.trm.testcases.TRMLoginPageTest">
         <methods>
           <include name="setUp"/>
           <include name="teardown"/>
-          <include name="rapdrpTextTest"/>
+          <include name="loginPageTitleTest"/>
         </methods>
       </class> <!-- com.tvd.trm.testcases.TRMLoginPageTest -->
     </classes>

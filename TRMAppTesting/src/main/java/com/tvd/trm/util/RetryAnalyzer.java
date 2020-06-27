@@ -3,11 +3,13 @@ package com.tvd.trm.util;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
+
+//RetryAnalyzer for to retry failed testcase given upto retrylimit
 public class RetryAnalyzer implements IRetryAnalyzer{
 
 	
 	int counter = 0;
-	int retryLimit = 3;
+	int retryLimit = 2;
 	
 	public boolean retry(ITestResult result){
 		if(counter < retryLimit){

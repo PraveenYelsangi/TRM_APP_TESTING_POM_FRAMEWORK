@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TRM Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.tvd.trm.util.MyTransformer"/>
+    <listener class-name="com.tvd.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.tvd.trm.util.ScreenShotListener"/>
+  </listeners>
+  <test name="TRM Application Regaression Testing">
     <classes>
-      <class name="com.tvd.trm.testcases.TRMManualCollEntryTest"/>
+      <class name="com.tvd.trm.testcases.TRMLoginPageTest"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TRM Application Regaression Testing -->
+  <test name="TRM Application Regaression Testing(failed)">
+    <classes>
+      <class name="com.tvd.trm.testcases.TRMLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.tvd.trm.testcases.TRMLoginPageTest -->
+    </classes>
+  </test> <!-- TRM Application Regaression Testing(failed) -->
+</suite> <!-- Failed suite [TRM Application Automation Test Suite] -->

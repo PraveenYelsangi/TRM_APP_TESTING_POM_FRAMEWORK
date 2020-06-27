@@ -1,5 +1,6 @@
 package com.tvd.trm.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +18,7 @@ public class TRMAddUserPageTest extends TrmTestBase {
 	TRMHomePage homepage;
 	TRMAddUserPage adduser;
 	String sheetsname = "Add_User";
+	Logger logger =  Logger.getLogger(TRMAddUserPageTest.class);
 
 	public TRMAddUserPageTest() {
 		super();
@@ -35,7 +37,10 @@ public class TRMAddUserPageTest extends TrmTestBase {
 
 	@Test(priority = 1)
 	public void validateadduserTest() {
-		Assert.assertEquals(adduser.adduserable(), "ADD USER DETAILS", "Add User lable not matched :==>");
+		logger.info("------------------->> Start AddUserPage Test <<-------------------");
+		String addusertext = adduser.adduserable();
+		Assert.assertEquals(addusertext, "ADD USER DETAILS", "Add User lable not matched :==>");
+		logger.info("Validated Add User text and the text is: " + addusertext);
 	}
 
 	// Get Test data for AddUser form
@@ -105,11 +110,20 @@ public class TRMAddUserPageTest extends TrmTestBase {
 
 			System.out.println("The Level doesn't exists, Your entered level is: " + level);
 		}
+		logger.info("The Selected Level is: " + level);
+		logger.info(" Level:" + level + " Company:" + company + " Zone:" + zone + " Circle:" + circle + " Division:"
+				+ division + " Sub-division:" + subdivfirst + " Group:" + groupname + " Username:" + username
+				+ " Password:" + password + " Sub-division2:" + subdivsecond + " E-mail:" + emailid + " Mobile no:"
+				+ mobileno);
+
+		// adduser.addapprovelbtn();
 	}
 
 	@Test(priority = 3)
 	public void validateapproveRejectlabelTest() {
-		Assert.assertEquals(adduser.approverejectlabel(), "User Approval/Reject", "Approval/Reject page not matched");
+		String approvalreject = adduser.approverejectlabel();
+		Assert.assertEquals(approvalreject, "User Approval/Reject", "Approve/reject lable not matched");
+		logger.info("Validated Approval/Reject Page and the text is: " + approvalreject);
 	}
 
 	// Add same Username name manually which is used in above method excel sheet
@@ -118,6 +132,8 @@ public class TRMAddUserPageTest extends TrmTestBase {
 			String subdivfirst, String groupname, String username, String password, String subdivsecond, String emailid,
 			String mobileno) {
 		adduser.approverejectbtn(username);
+		logger.info("Approval UserName is: " + username);
+		logger.info("------------------->> End AddUserPage Test <<-------------------");
 	}
 
 	@AfterMethod

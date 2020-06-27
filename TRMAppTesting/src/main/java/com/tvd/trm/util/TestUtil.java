@@ -1,12 +1,12 @@
 package com.tvd.trm.util;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -15,20 +15,23 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
-
-import com.google.common.io.Files;
+import org.openqa.selenium.io.FileHandler;
 import com.tvd.trm.base.TrmTestBase;
 
 public class TestUtil extends TrmTestBase {
 
-	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 10;
+	public static long PAGE_LOAD_TIMEOUT = 30;
+	public static long IMPLICIT_WAIT = 20;
 
 	public static Workbook book;
 	public static Sheet sheet;
 
-	public static String TEST_DATA_FILE = "D:\\JAVA_01\\TRMAppTesting\\src\\main\\java\\com\\tvd\\trm\\testdata\\TRM_TEST_DATA.xlsx";
+	public static String currentWorkingDir = System.getProperty("user.dir");
+	public static String testdataPath = currentWorkingDir + "\\src\\main\\java\\com\\tvd\\trm\\testdata";
+	public static String TEST_DATA_FILE = testdataPath + "\\TRM_TEST_DATA.xlsx";
+
+	// public static String TEST_DATA_FILE =
+	// "D:\\JAVA_01\\TRMAppTesting\\src\\main\\java\\com\\tvd\\trm\\testdata\\TRM_TEST_DATA.xlsx";
 
 	// Unexpected alert
 	public void alertAccept() {
@@ -79,30 +82,58 @@ public class TestUtil extends TrmTestBase {
 		return data;
 	}
 
-	// Take Screen SHOT
-	public static void takeScreenshotAtEndOfTest() {
+	// Taking failed Screen SHOT
+	public static String screenshotpath;
 
+	public static void captureScreenshot(String methodName) throws IOException {
+		// Take screen shot and store it in volatile memory with reference name
+		// scrFile
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try {
+			screenshotpath = System.getProperty("user.dir") + "/Screenshots/" + methodName + "_" + timestamp()
+					+ ".jpeg";
+			FileHandler.copy(scrFile, new File(screenshotpath));
+		} catch (IOException e) {
+			System.out.println("Screenshot not capture for method: " + methodName);
+			e.printStackTrace();
+		}
+	}
+
+	/*// Take Screen SHOT
+	public static void takeScreenshotAtEndOfTest() throws IOException {
+		String screenshot = currentWorkingDir + "/Screenshots";
 		try {
 			TakesScreenshot scrshot = ((TakesScreenshot) driver);
 
 			File srcpic = scrshot.getScreenshotAs(OutputType.FILE);
 
-			File destpic = new File("D:\\Selenium jars\\TookScreenShot\\" + timestamp() + ".png");
+			File destpic = new File(screenshot + timestamp() + ".png");
 
 			Files.copy(srcpic, destpic);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 	public static String timestamp() {
-		return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
+		return new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss").format(new Date());
 	}
-	//Scroll bar
+
+	// Scroll bar
 	public void scrolldown() {
+
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 
 	}
+
+	/*
+	 * // To clear before logged data in log file public static void logclear(){
+	 * BufferedWriter bw; try { bw = new BufferedWriter(new
+	 * FileWriter("C:\\Testing_Logs\\log.txt")); bw.write(""); bw.flush();
+	 * bw.close(); } catch (IOException e) { // TODO Auto-generated catch block
+	 * e.printStackTrace(); } }
+	 */
+
 }

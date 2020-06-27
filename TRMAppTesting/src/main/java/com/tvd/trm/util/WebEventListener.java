@@ -1,6 +1,5 @@
 package com.tvd.trm.util;
 
-import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -9,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.tvd.trm.base.TrmTestBase;
+
+// WebEventListener is for listening each event which is performed in webpage
 
 public class WebEventListener extends TrmTestBase implements WebDriverEventListener {
 
@@ -53,13 +54,13 @@ public class WebEventListener extends TrmTestBase implements WebDriverEventListe
 	}
 
 	public void onException(Throwable error, WebDriver driver) {
-		System.out.println("Exception occured: " + error);
+		/*System.out.println("Exception occured: " + error);
 		try {
 			TestUtil.takeScreenshotAtEndOfTest();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {

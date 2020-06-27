@@ -1,5 +1,6 @@
 package com.tvd.trm.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,10 +15,12 @@ public class TRMHomePageTest extends TrmTestBase{
 	TRMLoginPage loginpage;
 	TRMHomePage homepage;
 	TRMGenerateTicketPage generate_tic;
+	Logger logger = Logger.getLogger(TRMHomePageTest.class.getName());
 	
 	public TRMHomePageTest() {
 		super();
 	}
+	
 	@BeforeMethod
 	public void setUp(){
 		initializebrowser();
@@ -27,19 +30,22 @@ public class TRMHomePageTest extends TrmTestBase{
 	}
 	@Test(priority=1)
 	public void homePageTitleTest(){
+		logger.info("------------------->> Start HomePage Test <<-------------------");
 		String title = homepage.validateHomePageTitle();
-		System.out.println("The Title of TRM HomePage is===:> "+title);
 		Assert.assertEquals(title, "Welcome", "Title not found");
+		logger.info("==> Home page Title Test Complete and Title is: " + title);
 	}
     @Test(priority=2)
 	public void validateUsernameTest(){
 		Boolean flag = homepage.validateUsername();
-		System.out.println("The Display Username is ===:> "+flag);
 		Assert.assertTrue(flag, "Username not found");
+		logger.info("==> Home page display Username Test Complete and Title is: " + flag);
 	}
 	@Test(priority=3)
 	public void generateTicketlinkTest(){
 		generate_tic = homepage.genreateticketPage();
+		logger.info("------------------->> End LoginPage Test <<-------------------");
+		logger.info(" ");
 	}
 	
 	@AfterMethod
